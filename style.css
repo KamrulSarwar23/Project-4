@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.carousel-item{
+    height:450px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+.product-head:after{
+    content: "";
+    width:150px;
+    height:2px;
+    background: rgb(86, 214, 86);
+    display: block;
+    margin:10px auto;
+}
+.shop-section{
+    margin-top: 50px;
+}
+.box{
+    height: 350px;
+    border: 1px solid rgb(21, 216, 47);
+    border-radius: 10%;
+    margin-bottom: 50px;
+    background: rgb(246, 243, 243);
+    overflow: hidden;
+}
+.box img{
+    width: 50%;
+    height: 50%;
+    transition: all 1s ease;
+}
+
+.box:hover img{
+    transform: rotate(35deg);
+}
+
+.box:hover{
+    background: rgb(140, 240, 153);
+    cursor: pointer;
+}
+
+
+.shipping{
+    background: rgb(241, 238, 238);
+}
+.ship{
+    padding:20px;
+}
+
+.ship img{
+    margin-bottom: 15px;
+    transition: all 1s ease;
+}
+
+.ship:hover img{
+    transform: rotate(360deg);
+}
+.ship h6{
+    margin-bottom: 15px;
+}
+
+
+.readbox{
+    padding: 15px;
+    background: rgb(237, 241, 238);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.readbox img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.readbox:hover img{
+    transform: scale(0.9);
+}
+.readbox h4{
+    margin-bottom: 20px;
+}
+.readbox p{
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    color: rgb(42, 236, 68);
+}
+.footer{
+    color: rgb(241, 236, 236);
+    background: rgb(63, 63, 63);
+}
+
+.footer-box h3{
+    margin-bottom: 15px;
+}
+
+.footer-box h3:after{
+    content: "";
+    width:100px;
+    height: 2px;
+    background: rgb(85, 243, 133);
+    display: block;
+    margin: 10px auto;
+
+}
+
